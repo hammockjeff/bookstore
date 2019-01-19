@@ -113,9 +113,9 @@ public static void main(String[] args) {
 	b1.author = "Mathew, Mark Luke, and John";
 	b2.author = "Leo Tolstoy";
 	Person joe = new Person("Joe");
-	Person sue = new Person ("Sue");
+	Person mary = new Person ("Mary");
 	algonquin.addPerson(joe);
-	algonquin.addPerson(sue);
+	algonquin.addPerson(mary);
 	algonquin.addBook(b1);
 	algonquin.addBook(b2);
 	
@@ -124,8 +124,8 @@ public static void main(String[] args) {
 	System.out.println("Just Created a new Library");
 	algonquin.printStatus();
 	
-	System.out.println("Check out War and Peace to Sue");
-	algonquin.checkOut(b1,sue);
+	System.out.println("Check out War and Peace to Mary");
+	algonquin.checkOut(b1,mary);
 	algonquin.printStatus();
 	
 	System.out.println("anything else?");
