@@ -32,7 +32,7 @@ public class Book {
 	}
 	
 	public String toString() {
-		String bookDetail;
+		String bookString;
 		String available;
 		
 		if (this.person == null) {
@@ -42,9 +42,9 @@ public class Book {
 		}
 		
 		
-		bookDetail = this.title + " by " + this.author + "; " + available;
+		bookString = this.title + " by " + this.author + "; " + available;
 		
-		return bookDetail;
+		return bookString;
 		
 	}
 
