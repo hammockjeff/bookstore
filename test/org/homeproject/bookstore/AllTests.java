@@ -12,6 +12,7 @@ public class AllTests {
 		suite.addTestSuite(PersonTest.class);
 		suite.addTestSuite(MyLibraryTest.class);
 		//$JUnit-END$
+		
 		return suite;
 	}
 
