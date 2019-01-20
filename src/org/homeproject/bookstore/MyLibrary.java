@@ -1,9 +1,8 @@
 package org.homeproject.bookstore;
-// library class
+
 import java.util.ArrayList;
 
 public class MyLibrary {
-	// add more
 	
 	 String name;
 	 ArrayList<Book> books;
