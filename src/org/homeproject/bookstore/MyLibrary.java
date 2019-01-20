@@ -110,7 +110,7 @@ public static void main(String[] args) {
 	MyLibrary algonquin = new MyLibrary("Algonquin");
 	Book b1 = new Book("The Bible");
 	Book b2 = new Book("War and Peace");
-	b1.author = "Mathew, Mark Luke, and John";
+	b1.author = "Mathew, Mark Luke and John";
 	b2.author = "Leo Tolstoy";
 	Person joe = new Person("Joe");
 	Person mary = new Person ("Mary");
